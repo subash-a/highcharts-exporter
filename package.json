@@ -20,5 +20,30 @@
   "bugs": {
     "url": "https://github.com/subash-a/highcharts-exporter/issues"
   },
-  "homepage": "https://github.com/subash-a/highcharts-exporter#readme"
+  "homepage": "https://github.com/subash-a/highcharts-exporter#readme",
+  "dependencies": {
+    "jspm": "^0.16.14",
+    "typescript": "^1.8.0-dev.20151110"
+  },
+  "jspm": {
+    "dependencies": {
+      "highcharts-release": "github:highslide-software/highcharts-release@^4.1.9"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    },
+    "overrides": {
+      "github:highslide-software/highcharts-release@4.1.9": {
+        "dependencies": {
+          "jquery": "github:components/jquery"
+        },
+        "main": "highcharts",
+        "shim": {
+          "highcharts": [
+            "jquery"
+          ]
+        }
+      }
+    }
+  }
 }
