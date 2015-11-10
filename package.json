@@ -1,0 +1,24 @@
+{
+  "name": "highcharts-exporter",
+  "version": "1.0.0",
+  "description": "Highcharts exporter for jspm dependency overriding",
+  "main": "highcharts-exporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/subash-a/highcharts-exporter.git"
+  },
+  "keywords": [
+    "highcharts",
+    "exporting",
+    "jspm"
+  ],
+  "author": "s7subash@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subash-a/highcharts-exporter/issues"
+  },
+  "homepage": "https://github.com/subash-a/highcharts-exporter#readme"
+}
