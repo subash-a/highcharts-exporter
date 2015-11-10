@@ -4,8 +4,5 @@
 		"target": "ES6",
 		"out": "./highcharts-exporter.js",
 		"sourceMap": true
-	},
-	"files": [
-		"./highcharts-exporter.ts"
-	]
+	}
 }
