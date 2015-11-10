@@ -1,0 +1,9 @@
+{
+	"module" :"es2015",
+	"out": "highcharts-exporter.js",
+	"sourceMap": true,
+	"files": [
+		"highcharts-exporter.ts"
+	],
+	"target": "ES6"
+}
