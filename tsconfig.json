@@ -2,10 +2,10 @@
 	"compilerOptions": {
 		"module" :"es2015",
 		"target": "ES6",
-		"out": "highcharts-exporter.js",
+		"out": "./highcharts-exporter.js",
 		"sourceMap": true
 	},
 	"files": [
-		"highcharts-exporter.ts"
+		"./highcharts-exporter.ts"
 	]
 }
